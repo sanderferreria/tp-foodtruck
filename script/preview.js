@@ -27,6 +27,7 @@ export function showCartPreview() {
 
   const qrText = cart.map((item) => `${item.name} x${item.qty}`).join(", ");
   const qrURL = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(
+    // désolé..
     "https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1"
   )}&size=150x150`;
 

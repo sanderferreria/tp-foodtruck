@@ -12,7 +12,6 @@ export function startOrderProgress() {
       commandesEnCours--;
       showToast("Commande livrée !");
 
-      // Dernière étape : passe en vert
       const last = etapes[etapes.length - 1];
       const circle = last.querySelector(".w-4");
       const title = last.querySelector("p.text-sm");
