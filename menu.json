@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Margherita",
+    "price": 10,
+    "image": "./images/pizza.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pizza Hawaïenne",
+    "price": 11.5,
+    "image": "./images/pizza-h.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tacos Poulet",
+    "price": 8,
+    "image": "./images/tacos.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Salade César",
+    "price": 7.5,
+    "image": "./images/salade.jpg"
+  }
+]

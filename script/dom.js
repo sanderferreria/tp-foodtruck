@@ -1,0 +1,12 @@
+export const menuList = document.getElementById("menu-list");
+export const cartList = document.getElementById("panier-list");
+export const totalEl = document.getElementById("total");
+export const btnOrder = document.getElementById("btn-commander");
+export const recapModal = document.getElementById("recap-modal");
+export const recapList = document.getElementById("recap-list");
+export const recapTotal = document.getElementById("recap-total");
+export const btnValidate = document.getElementById("valider-btn");
+export const btnCancel = document.getElementById("annuler-btn");
+export const toast = document.getElementById("toast");
+export const suiviBloc = document.getElementById("commande-statut");
+export const etapes = document.querySelectorAll("#etapes li");
